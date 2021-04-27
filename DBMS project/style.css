@@ -11,21 +11,24 @@ body{
 
 
 .title{
+    position: relative;
     /* border: 3px solid red; */
-    position : relative;
-    height: 60px;
-    text-align: center;
-    font-size: 70px;
-    top: 0;
-    left: 0; margin-left: auto;
-    right:0; margin-right : auto;
-    color: white;
-    /* bottom: 0; */
+    height : 150px;
+    /* width: 100%;  */
+    padding-top: 25px;
 }
-.title :hover{
-    transition: 0.6s ease-in;
-    color: red;
+.title img{
+    /* border: 3px solid red; */
+    height: 110px;
+    display: block;
+    position: relative;
+    /* top: 50%; */
+    /* top: 50%; */
+    left: 50%;
+    transform: translateX(-50%);
+    
 }
+
 
 .login_box{
     /* border: 3px solid red; */
@@ -33,7 +36,7 @@ body{
     padding-bottom: 2px;
     padding-right: 5;
     padding-left: 5;
-    top : 50%;
+    top : 55%;
     left : 50%;
     width: 320px;
     background : black;
