@@ -121,8 +121,8 @@ input[type="submit"]:hover{
 footer{
     position: absolute;
     bottom: 0; left: 0; right: 0;
-    background : transparent;
-    height: 25px;
+    background : black;
+    height: 30px;
     width: 100%;
     /* font-family: cursive; */
     /* padding-top: 2px; */
