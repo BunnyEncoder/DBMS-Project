@@ -151,8 +151,4 @@ label #navbarbtn:hover{
     position: fixed;
     top: 0; left: 0;
     background-size: cover;
-    /* transition: 0.5s ease-in; */
-}
-/* #bars:checked ~.content img{ */
-    /* margin-left: 20px; */
 }
